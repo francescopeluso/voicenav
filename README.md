@@ -2,7 +2,8 @@
 
 > **MIT Global AI Hackathon 2026 | Mozilla "Bring Your Own AI to Every Website" Track**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](project-cover.png)
+
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![React](https://img.shields.io/badge/react-18-61DAFB.svg)](https://reactjs.org/)
 
@@ -15,7 +16,6 @@
 - **🗣️ True Voice Control**: Speak naturally. "Find me cheap tickets to London" instead of typing keywords.
 - **🤖 Autonomous Navigation**: The agent understands page structure. It can click buttons, fill forms, and navigate complex flows (like flight search) on its own.
 - **🧠 Context-Aware Intelligence**: It reads the page you're on. Ask "How much is this?" or "Who is the author?" and it answers based on visible content.
-- **🛡️ "Psycho Mode" Prevention**: Robust error handling prevents the agent from getting stuck in loops. If it fails to find an element, it retries smartly or asks for help.
 - **💬 Persistent Conversation**: Remembers your previous queries and the context of the conversation.
 - **🔒 Privacy-First**: Explicit permission model. You decide when the agent can **Read**, **Navigate**, or **Interact**.
 
@@ -120,5 +120,5 @@ We believe in **Human-in-the-loop** AI.
 ## 🔮 Future Roadmap
 
 - [ ] **Mobile Support**: Porting the extension to mobile browsers.
-- [ ] **Vision Capabilities**: Integrating GPT-4o for visual understanding of the page layout.
+- [x] **Vision Capabilities**: Integrating GPT-4o for visual understanding of the page layout.
 - [ ] **Local LLM Support**: Running local hosted LLMs for privacy-focused users.
