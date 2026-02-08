@@ -2,6 +2,10 @@
 
 > **MIT Global AI Hackathon 2026 | Mozilla "Bring Your Own AI to Every Website" Track**
 
+> [!CAUTION]
+> This is just an MVP, not a fully working product.  
+> Use it at your own risk!
+
 ![](project-cover.png)
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
