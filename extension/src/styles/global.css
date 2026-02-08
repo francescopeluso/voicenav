@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FAF8F5;
+  --bg-alt: #F0EDEA;
+  --fg: #1A1A1A;
+  --fg-secondary: #6B6B6B;
+  --border: #D4D0CC;
+  --border-strong: #1A1A1A;
+}
+
+body {
+  width: 380px;
+  min-height: 520px;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+}
+
+body:has(.h-screen) {
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+@keyframes pulse-bar {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.mic-pulse {
+  animation: pulse-bar 1.2s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+::selection {
+  background: #1A1A1A;
+  color: #FAF8F5;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
